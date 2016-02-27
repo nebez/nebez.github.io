@@ -1,6 +1,6 @@
 html {
     color: #6c6c6c;
-    font-size: 1em;
+    font-size: 14px;
     line-height: 1.4;
 }
 
@@ -138,6 +138,31 @@ html, button, input, select, textarea,
     font-weight: 400;
     font-size: 24px;
     margin: 0;
+}
+
+.blurb {
+    text-transform: lowercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 50px;
+}
+
+.blurb .blurb-header {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.blurb .blurb-header:after {
+    content: " ";
+    position: absolute;
+    left: 0px;
+    bottom: 20px;
+    width: 30px;
+    height: 1px;
+    background-color: #d3d3d3;
 }
 
 /**
