@@ -121,6 +121,25 @@ html, button, input, select, textarea,
     color: #373737;
 }
 
+#splash {
+    text-transform: lowercase;
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+
+#splash h1 {
+    color: #373737;
+    font-weight: 600;
+    font-size: 48px;
+    margin: 0;
+}
+
+#splash h3 {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+}
+
 /**
  * Print styles
  **/
