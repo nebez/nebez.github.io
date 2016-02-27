@@ -4,6 +4,10 @@ html {
     line-height: 1.4;
 }
 
+a {
+    color: inherit;
+}
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -91,15 +95,30 @@ html, button, input, select, textarea,
 }
 
 .header .links {
-    margin: 0;
     float: right;
+    margin: 0;
     height: 70px;
-    line-height: 70px;
+    font-size: 0px;
 }
 
 .header .links li {
     display: inline;
     list-style-type: none;
+    font-size: 30px;
+    line-height: 70px;
+    margin-left: 6px;
+}
+
+.header .links li a {
+    display: inline-block;
+    line-height: 1;
+    padding: 6px;
+    transition: color 100ms ease;
+}
+
+.header .links li a:hover,
+.header .links li a:active {
+    color: #373737;
 }
 
 /**
