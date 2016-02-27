@@ -6,6 +6,7 @@ html {
 
 a {
     color: inherit;
+    text-decoration: none;
 }
 
 ::-moz-selection {
@@ -21,15 +22,6 @@ a {
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
 }
 
 /**
@@ -165,6 +157,20 @@ html, button, input, select, textarea,
     background-color: #d3d3d3;
 }
 
+h4.somewhat-big {
+    margin: 0;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h6.kinda-small {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
 /**
  * Print styles
  **/
@@ -180,7 +186,7 @@ html, button, input, select, textarea,
 
     a,
     a:visited {
-        text-decoration: underline;
+        text-decoration: underline !important;
     }
 
     a[href]:after {
