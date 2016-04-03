@@ -9,12 +9,184 @@
         <meta name="author" content="Nebez Briefkani" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
         <link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.6.0/base-min.css&pure/0.6.0/grids-min.css&pure/0.6.0/grids-responsive-min.css" type="text/css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" type="text/css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
-        <link rel="stylesheet" href="css/main.css" type="text/css">
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <style>
+            html {
+                color: #6c6c6c;
+                font-size: 14px;
+                line-height: 1.4;
+            }
+            
+            a {
+                color: inherit;
+                text-decoration: none;
+            }
+            
+            ::-moz-selection {
+                background: #b3d4fc;
+                text-shadow: none;
+            }
+            
+            ::selection {
+                background: #b3d4fc;
+                text-shadow: none;
+            }
+            
+            body {
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            
+            /**
+             * We gotta set font-family on all this stuff because the Pure css framework
+             * resets fonts in these elements
+             **/
+            html, button, input, select, textarea,
+            .pure-g [class *= "pure-u"] {
+                font-family: "Open Sans", sans-serif;
+            }
+            
+            .container {
+                width: 90%;
+                max-width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .clearfix:before,
+            .clearfix:after {
+                content: " ";
+                display: table;
+            }
+            
+            .clearfix:after {
+                clear: both;
+            }
+            
+            .header {
+                position: relative;
+                border-bottom: 1px solid #ebebeb;
+            }
+            
+            .header:before {
+                content: " ";
+                position: absolute;
+                bottom: -2px;
+                width: 100%;
+                height: 1px;
+                background-color: #fafafa;
+            }
+            
+            .header:after {
+                content: " ";
+                position: absolute;
+                bottom: -3px;
+                width: 100%;
+                height: 1px;
+                background-color: #fefefe;
+            }
+            
+            #logo {
+                float: left;
+                font-size: 26px;
+                line-height: 29px;
+                font-weight: 700;
+                background-color: #373737;
+                border-radius: 3px;
+                margin-top: 16px;
+                margin-bottom: 16px;
+                padding: 4px 12px;
+                color: #fff;
+            }
+            
+            .header .links {
+                float: right;
+                margin: 0;
+                height: 70px;
+                font-size: 0px;
+            }
+            
+            .header .links li {
+                display: inline;
+                list-style-type: none;
+                font-size: 30px;
+                line-height: 70px;
+                margin-left: 6px;
+            }
+            
+            .header .links li a {
+                display: inline-block;
+                line-height: 1;
+                padding: 6px;
+                transition: color 100ms ease;
+            }
+            
+            .header .links li a:hover,
+            .header .links li a:active {
+                color: #373737;
+            }
+            
+            #splash {
+                text-transform: lowercase;
+                margin-top: 180px;
+                margin-bottom: 180px;
+            }
+            
+            #splash h1 {
+                color: #373737;
+                font-weight: 600;
+                font-size: 48px;
+                margin: 0;
+            }
+            
+            #splash h3 {
+                font-weight: 400;
+                font-size: 24px;
+                margin: 0;
+            }
+            
+            .blurb {
+                text-transform: lowercase;
+                letter-spacing: 0.5px;
+                margin-bottom: 50px;
+            }
+            
+            .blurb .blurb-header {
+                color: #a8a8a8;
+                font-size: 12px;
+                font-weight: 400;
+            
+                position: relative;
+                padding-bottom: 40px;
+            }
+            
+            .blurb .blurb-header:after {
+                content: " ";
+                position: absolute;
+                left: 0px;
+                bottom: 20px;
+                width: 30px;
+                height: 1px;
+                background-color: #d3d3d3;
+            }
+            
+            h4.somewhat-big {
+                margin: 0;
+                line-height: 1;
+                font-size: 18px;
+                font-weight: 600;
+            }
+            
+            h6.kinda-small {
+                margin: 0;
+                margin-bottom: 25px;
+                font-size: 13px;
+                font-weight: 400;
+            }
+        </style>
     </head>
     <body>
 
