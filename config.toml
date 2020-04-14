@@ -3,6 +3,19 @@ baseURL = "https://nebezb.com"
 languageCode = "en-us"
 enableRobotsTXT = true
 disableKinds = ["section", "RSS", "taxonomy", "taxonomyTerm"]
+googleAnalytics = "UA-48047334-1"
 
 [permalinks]
   posts = "/:slug/"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "manni"
+    tabWidth = 4
