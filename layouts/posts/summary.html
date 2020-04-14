@@ -1,5 +1,7 @@
 <a href="{{ .RelPermalink }}" class="post-summary">
     <h3>{{ .Title }}</h3>
-    <small>{{ .Date.Format "Jan 2 2006" }}</small>
-    <p>{{ .Description }}</p>
+    <div class="details">
+        <small>{{ .Date.Format "Jan 2 2006" }}</small>
+        <p>{{ .Description }}</p>
+    </div>
 </a>

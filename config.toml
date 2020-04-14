@@ -5,4 +5,4 @@ enableRobotsTXT = true
 disableKinds = ["section", "RSS", "taxonomy", "taxonomyTerm"]
 
 [permalinks]
-  posts = "/:title/"
+  posts = "/:slug/"

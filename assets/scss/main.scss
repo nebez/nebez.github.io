@@ -48,6 +48,7 @@ header {
         flex: 0 0 auto;
         flex-direction: column;
         justify-content: center;
+        width: 50px;
     }
 
     ul.nav {
@@ -88,7 +89,24 @@ header {
 
 .post-summary {
     display: block;
-    margin-bottom: 45px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+
+    h3 {
+        display: inline;
+        font-family: $fontFamilyHeading;
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    &:hover h3 {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .details {
+        margin-top: 10px;
+    }
 
     small {
         font-family: $fontFamilyHeading;
@@ -100,10 +118,7 @@ header {
         margin-bottom: 20px;
     }
 
-    h3 {
-        font-family: $fontFamilyHeading;
-        font-weight: 700;
-        font-size: 22px;
-        margin-bottom: 10px;
+    &:hover small {
+        opacity: 1;
     }
 }

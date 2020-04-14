@@ -1,5 +1,6 @@
 ---
 title: "Lorem ipsum"
+slug: "lorem-ipsum"
 description: "A post with some lorem in it to help blah blah. Sometimes it can be multiple lines long because it's so full of text. Interesting stuff can go here!"
 date: "2018-01-10"
 categories:
