@@ -1,15 +1,5 @@
-    <a href="{{ .Permalink }}">{{ .Title }}</a> <small class="pull-right">Posted on {{ .Date }}</small><br>
-    <small>{{ .Description }}</small>
-<hr>
-<p>{{ .Summary }}</p>
-<a class="btn btn-primary btn-xs" href="{{ .Permalink }}">Read More <span class="fa fa-angle-double-right"></span></a>
-<hr>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<a href="{{ .RelPermalink }}" class="post-summary">
+    <h3>{{ .Title }}</h3>
+    <small>{{ .Date.Format "Jan 2 2006" }}</small>
+    <p>{{ .Description }}</p>
+</a>

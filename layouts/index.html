@@ -1,7 +1,9 @@
 {{ define "main" }}
 
+<div class="container">
 {{ range first 10 (where .Site.RegularPages "Section" "posts") }}
     {{ .Render "summary" }}
 {{ end }}
+</div>
 
 {{ end }}

@@ -4,12 +4,14 @@
 
 
 $fontFamilyBody: 'Roboto', sans-serif; // [400, 700]
-$fontFamilyHeading: 'Space Mono', monospace; // [400]
+$fontFamilyHeading: 'Space Mono', monospace; // [400, 700]
 
 body {
     font-family: $fontFamilyBody;
     font-weight: 400;
     color: #000;
+    line-height: 1.5;
+    font-size: 14px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,12 +27,18 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
 }
 
-header {
+.container {
     max-width: 750px;
     width: 100%;
-    margin: 0 auto;
-    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
 
+header {
+    margin-top: 25px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
 
@@ -46,6 +54,10 @@ header {
         display: flex;
         flex: 0 0 auto;
         margin: 0;
+
+        // Adjust for the padding of the right-most nav item to line it up with
+        // the rest of the page content.
+        margin-right: -10px;
     }
 
     ul.nav li {
@@ -71,5 +83,27 @@ header {
         &:hover {
             opacity: 1;
         }
+    }
+}
+
+.post-summary {
+    display: block;
+    margin-bottom: 45px;
+
+    small {
+        font-family: $fontFamilyHeading;
+        font-weight: 400;
+        font-size: 12px;
+        opacity: 0.6;
+        float: right;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-family: $fontFamilyHeading;
+        font-weight: 700;
+        font-size: 22px;
+        margin-bottom: 10px;
     }
 }

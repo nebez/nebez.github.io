@@ -1,5 +1,5 @@
 ---
-title: "Another post, hello!"
+title: "A very long title for a post that could span multiple lines too"
 description: "Saying 'Hello' from Hugo again - heyo"
 date: "2020-04-13"
 categories:
