@@ -1,0 +1,12 @@
+// https://mediag.com/blog/popular-screen-resolutions-designing-for-all/
+@mixin min-width($size) {
+    @media (min-width: $size) { @content; }
+}
+
+@mixin max-width($size) {
+    @media (max-width: $size) { @content; }
+}
+
+@mixin between($size1, $size2) {
+    @media (min-width: $size1) and (max-width: $size2) { @content; }
+}

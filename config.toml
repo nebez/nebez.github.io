@@ -1,0 +1,8 @@
+title = "Nebez Briefkani"
+baseURL = "https://nebezb.com"
+languageCode = "en-us"
+enableRobotsTXT = true
+disableKinds = ["section", "RSS", "taxonomy", "taxonomyTerm"]
+
+[permalinks]
+  posts = "/:title/"

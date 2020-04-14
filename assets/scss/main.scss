@@ -1,0 +1,75 @@
+@import 'normalize';
+@import 'reset';
+@import 'helpers';
+
+
+$fontFamilyBody: 'Roboto', sans-serif; // [400, 700]
+$fontFamilyHeading: 'Space Mono', monospace; // [400]
+
+body {
+    font-family: $fontFamilyBody;
+    font-weight: 400;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $fontFamilyHeading;
+    font-weight: 400;
+}
+
+::-moz-selection { background: #96C1B2; }
+::selection { background: #96C1B2; }
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px;
+
+    display: flex;
+    justify-content: space-between;
+
+
+    .logo {
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    ul.nav {
+        display: flex;
+        flex: 0 0 auto;
+        margin: 0;
+    }
+
+    ul.nav li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-left: 10px;
+    }
+
+    .nav a {
+        display: inline-block;
+        padding: 10px;
+        font-family: $fontFamilyHeading;
+        font-weight: 400;
+        font-size: 14px;
+
+        opacity: 0.6;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

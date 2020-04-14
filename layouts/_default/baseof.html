@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>{{ .Site.Title }}</title>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+        <meta name="robots" content="index,follow">
+        <meta name="googlebot" content="index,follow">
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono&display=swap" rel="stylesheet">
+
+        {{ $options := dict "targetPath" "assets/main.css" }}
+
+        {{- if eq hugo.Environment "production" -}}
+          {{- $options = merge $options (dict "outputStyle" "compressed") -}}
+        {{- else -}}
+          {{- $options = merge $options (dict "enableSourceMap" true) -}}
+        {{- end -}}
+
+        {{ $style := resources.Get "scss/main.scss" | toCSS $options | fingerprint }}
+        <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    </head>
+    <body>
+        {{- partial "header.html" . -}}
+        <div id="content">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "footer.html" . -}}
+        {{- partial "scripts.html" . -}}
+    </body>
+</html>
