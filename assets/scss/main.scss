@@ -37,7 +37,7 @@ p {
     padding-right: 25px;
 }
 
-header {
+header#site-header {
     margin-top: 25px;
     margin-bottom: 50px;
     display: flex;
@@ -108,9 +108,8 @@ header {
         margin-top: 10px;
     }
 
-    small {
+    time {
         font-family: $fontFamilyHeading;
-        font-weight: 400;
         font-size: 12px;
         opacity: 0.6;
         float: right;
@@ -118,7 +117,7 @@ header {
         margin-bottom: 20px;
     }
 
-    &:hover small {
+    &:hover time {
         opacity: 1;
     }
 }
@@ -145,7 +144,7 @@ header {
         margin-left: 10px;
         margin-bottom: 10px;
 
-        @include min-width(400px) {
+        @include min-width(500px) {
             width: 200px;
         }
     }
@@ -178,6 +177,33 @@ header {
 }
 
 .post-container {
+    header {
+        margin-bottom: 40px;
+    }
+
+    header h1 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 40px;
+
+        @include min-width(500px) {
+            font-size: 50px;
+        }
+    }
+
+    header time {
+        font-family: $fontFamilyHeading;
+        font-size: 12px;
+        opacity: 0.6;
+    }
+
+    header small {
+        float: right;
+        font-family: $fontFamilyHeading;
+        opacity: 0.6;
+    }
+
     .highlight > pre {
         padding-top: 40px;
         padding-bottom: 40px;

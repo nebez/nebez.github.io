@@ -1,11 +1,12 @@
 {{ define "main" }}
-<div class="container post-container">
-    <h2>{{ .Title }}</h2>
-    <h4>{{ .PublishDate.Format "January 2, 2006" }}</h4>
-    <small>{{ .WordCount }} words</small>
+<article class="container post-container">
+    <header>
+        <h1>{{ .Title }}</h1>
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}" pubdate>{{ .Date.Format "January 2, 2006" }}</time>
+        <small>{{ math.Round (div .WordCount 220.0) }} minute read</small>
+    </header>
 
-    <hr>
     {{ .Content }}
 
-</div>
+</article>
 {{ end }}
