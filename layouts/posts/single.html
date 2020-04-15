@@ -6,7 +6,8 @@
         <small>{{ math.Round (div .WordCount 220.0) }} minute read</small>
     </header>
 
-    {{ .Content }}
-
+    <div class="rendered">
+        {{ .Content }}
+    </div>
 </article>
 {{ end }}
