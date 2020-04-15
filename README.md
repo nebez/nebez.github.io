@@ -1,5 +1,7 @@
 todo
 
+* build: `rm -rf docs/ && hugo --minify`
+
 figure out images. portrait on about page? comic on homepage + default everywhere?
 
 set a default featured image for all blog posts that don't have one

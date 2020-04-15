@@ -4,6 +4,7 @@ languageCode = "en-us"
 enableRobotsTXT = true
 disableKinds = ["section", "RSS", "taxonomy", "taxonomyTerm"]
 googleAnalytics = "UA-48047334-1"
+publishDir = "docs"
 
 # This is used for the OpenGraph/SEO meta headers.
 [params]
