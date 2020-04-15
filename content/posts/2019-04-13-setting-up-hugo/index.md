@@ -3,9 +3,6 @@ title: "Setting up Hugo"
 description: "Initialize static site generator, render markdown, and design"
 slug: "setting-up-hugo"
 date: "2020-04-13"
-categories:
-  - "example"
-  - "hello"
 tags:
   - "example"
   - "hugo"

@@ -3,9 +3,6 @@ title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
 slug: "lorem-ipsum"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 date: "2018-01-10"
-categories:
-  - "example"
-  - "hello"
 tags:
   - "example"
   - "hugo"

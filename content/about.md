@@ -1,6 +1,5 @@
 ---
-title: "About me"
-description: "About me hello there"
+title: "About"
 layout: about
 ---
 

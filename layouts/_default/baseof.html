@@ -4,11 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>{{ .Site.Title }}</title>
+        <title>{{ .Title }}{{ if ne .Title .Site.Title }} | {{ .Site.Title }}{{ end }}</title>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
         <meta name="robots" content="index,follow">
         <meta name="googlebot" content="index,follow">
+        <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 

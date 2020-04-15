@@ -5,6 +5,9 @@ enableRobotsTXT = true
 disableKinds = ["section", "RSS", "taxonomy", "taxonomyTerm"]
 googleAnalytics = "UA-48047334-1"
 
+[params]
+  description = "Software engineer, startup enthusiast, and consultant located in Montréal. Currently Principal Engineer, Payments at Lightspeed. Previously SSENSE, LXRandCo, Nukern."
+
 [permalinks]
   posts = "/:slug/"
 
