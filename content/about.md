@@ -4,11 +4,16 @@ description: "About me hello there"
 layout: about
 ---
 
-# About
+## Canadian-Iraqi software engineer & startup enthusiast based in Montréal, Canada
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I've been developing software for nearly 15 years. Previously [SSENSE](#), [LXRandCo](#), co-founder of [nukern](#), and now-defunct [Infantry Online](https://en.wikipedia.org/wiki/Infantry_(video_game)).
+
+Currently Principal Engineer at [Lightspeed](#) building their presence, operations, and technology in physical and digital payments.
+
+After two failed businesses and one successful [IPO](https://web.tmxmoney.com/quote.php?qm_symbol=LXR) of an omnichannel retailer, I've developed a deep expertise in the ecommerce, fashion, and payments industries. I spend my free time helping start-ups with product development, technical direction, and growth through consulting agency [latitude85](#). Reach out on [LinkedIn](#) if you want to chat!
+
+### Links
+
+* [linkedin](#)
+* [github](#)
+* [hi@nebezb.com](#)

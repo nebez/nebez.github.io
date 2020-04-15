@@ -1,23 +1,10 @@
 {{ define "main" }}
 
 <div class="container about-me">
-    <h1>nebez briefkani</h1>
+    <h1>Nebez Briefkani</h1>
     <img src="{{ ((resources.Get "img/me-color.jpg").Fill "400x400 Top").RelPermalink }}" class="img">
 
-    <h2>canadian-iraqi software engineer & startup enthusiast based in montréal, canada</h2>
-
-    <p>I've been developing software for nearly 15 years. Previously <a href="#">SSENSE</a>, <a href="#">LXRandCo</a>, co-founder of <a href="#">nukern</a>, and now-defunct <a href="https://en.wikipedia.org/wiki/Infantry_(video_game)">Infantry Online</a>.</p>
-
-    <p>Currently Principal Engineer at <a href="#">Lightspeed</a> building their presence, operations, and technology in physical and digital payments.</p>
-
-    <p>After two failed businesses and one successful <a href="https://web.tmxmoney.com/quote.php?qm_symbol=LXR">IPO</a> of an omnichannel retailer, I've developed a deep expertise in the ecommerce, fashion, and payments industries. I spend my free time helping start-ups with product development, technical direction, and growth through consulting agency <a href="#">latitude85</a>. Reach out on <a href="#">LinkedIn</a> if you want to chat!</p>
-
-    <h3>links</h3>
-    <ul>
-        <li><a href="#">linkedin</a></li>
-        <li><a href="#">github</a></li>
-        <li><a href="#">hi@nebezb.com</a></li>
-    </ul>
+    {{ .Content }}
 </div>
 
 {{ end }}

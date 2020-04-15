@@ -132,6 +132,10 @@ header {
 }
 
 .about-me {
+    h1, h2, h3 {
+        text-transform: lowercase;
+    }
+
     h1 {
         font-size: 30px;
         margin-bottom: 25px;
