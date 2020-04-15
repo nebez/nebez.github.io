@@ -1,6 +1,7 @@
 ---
-title: "A very long title for a post that could span multiple lines too"
-description: "Saying 'Hello' from Hugo again - heyo"
+title: "Setting up Hugo, and a very long title for a post that could span multiple lines too"
+description: "Saying 'Hello' from Hugo"
+slug: "setting-up-hugo"
 date: "2020-04-13"
 categories:
   - "example"
