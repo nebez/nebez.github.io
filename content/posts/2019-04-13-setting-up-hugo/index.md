@@ -1,6 +1,6 @@
 ---
-title: "Setting up Hugo, and a very long title for a post that could span multiple lines too"
-description: "Saying 'Hello' from Hugo"
+title: "Setting up Hugo"
+description: "Styling and rendering markdown"
 slug: "setting-up-hugo"
 date: "2020-04-13"
 categories:

@@ -244,17 +244,17 @@ header#site-header {
         margin: 1.5em 0 0.7em 0;
     }
     h1 {
-      font-size:      30px;
+      font-size: 24px;
     }
     h2 {
-      font-size:      22px;
+      font-size: 20px;
     }
     h3 {
-      font-size:      16px;
+      font-size: 16px;
     }
     h4, h5, h6 {
-      font-size:      18px;
-      font-weight:    400;
+      font-size: 18px;
+      font-weight: 400;
     }
 
     // Paragraphs and inline code
@@ -265,9 +265,8 @@ header#site-header {
         background-color: #f5f5f5;
         padding: 6px;
     }
-
     blockquote {
-        font-family: Georgia, serif;
+        font-family: 'Georgia', serif;
         font-style: italic;
         color: #666;
     }
