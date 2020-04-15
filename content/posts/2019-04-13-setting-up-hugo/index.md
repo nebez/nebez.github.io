@@ -1,6 +1,6 @@
 ---
 title: "Setting up Hugo"
-description: "Styling and rendering markdown"
+description: "Initialize static site generator, render markdown, and design"
 slug: "setting-up-hugo"
 date: "2020-04-13"
 categories:
