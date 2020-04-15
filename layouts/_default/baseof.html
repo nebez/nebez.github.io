@@ -2,6 +2,7 @@
 <html lang="{{ .Site.LanguageCode }}">
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>{{ .Title }}{{ if ne .Title .Site.Title }} | {{ .Site.Title }}{{ end }}</title>
@@ -9,7 +10,11 @@
 
         <meta name="robots" content="index,follow">
         <meta name="googlebot" content="index,follow">
-        <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+
+        <!-- SEO'ish stuff -->
+        {{ partial "meta.opengraph.html" . }}
+        {{ partial "meta.twitter_cards.html" . }}
+        {{ partial "meta.schema.html" . }}
 
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 

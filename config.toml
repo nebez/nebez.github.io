@@ -9,6 +9,7 @@ googleAnalytics = "UA-48047334-1"
 [params]
   title = "Nebez Briefkani"
   description = "Software engineer, startup enthusiast, and consultant located in Montréal. Currently Principal Engineer, Payments at Lightspeed. Previously SSENSE, LXRandCo, Nukern."
+  tags = ["nebez","nebezb","briefkani","web","designer","developer","software","dev","consultant","montreal","quebec","canada","ssense","lxrco","lxrandco","nukern","lightspeed","engineer","latitude85"]
 
 [permalinks]
   posts = "/:slug/"

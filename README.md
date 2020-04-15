@@ -1,8 +1,6 @@
 todo
 
-use internal templates for opengraph, schema, and twitter cards
-    https://gohugo.io/templates/internal
-    https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates
+figure out images. portrait on about page? comic on homepage + default everywhere?
 
 set a default featured image for all blog posts that don't have one
 through archetypes?? or through front matter cascading with `content/posts/_index.md`?
