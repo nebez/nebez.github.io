@@ -5,11 +5,17 @@ enableRobotsTXT = true
 disableKinds = ["section", "RSS", "taxonomy", "taxonomyTerm"]
 googleAnalytics = "UA-48047334-1"
 
+# This is used for the OpenGraph/SEO meta headers.
 [params]
+  title = "Nebez Briefkani"
   description = "Software engineer, startup enthusiast, and consultant located in Montréal. Currently Principal Engineer, Payments at Lightspeed. Previously SSENSE, LXRandCo, Nukern."
 
 [permalinks]
   posts = "/:slug/"
+
+[frontmatter]
+  date = [":filename", ":default"]
+
 
 [markup]
   [markup.highlight]
