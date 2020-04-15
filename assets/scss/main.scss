@@ -23,14 +23,6 @@ p {
     margin: 14px 0;
 }
 
-p a {
-    color: #2d81ec;
-
-    &:hover {
-        text-decoration: underline;
-    }
-}
-
 .img {
     max-width: 100%;
     height: auto;
@@ -183,14 +175,6 @@ header {
             background-color: #000;
         }
     }
-
-    ul li a {
-        color: #2d81ec;
-
-        &:hover {
-            text-decoration: underline;
-        }
-    }
 }
 
 .post-container {
@@ -205,6 +189,16 @@ header {
     }
 }
 
+// Markdown page content gets rendered in here.
 #content {
     padding-bottom: 50px;
+
+    p a,
+    ul a {
+        color: #2d81ec;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
