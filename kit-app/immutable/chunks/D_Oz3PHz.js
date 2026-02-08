@@ -1,0 +1,1 @@
+import{a as o,b as u,H as _,h as t,C as g,j as i,k as l,n,f as p,o as m}from"./D_ayd-TV.js";function E(d,r){let s=null,f=t;var a;if(t){s=p;for(var e=m(document.head);e!==null&&(e.nodeType!==g||e.data!==d);)e=i(e);if(e===null)l(!1);else{var y=i(e);e.remove(),n(y)}}t||(a=document.head.appendChild(o()));try{u(()=>r(a),_)}finally{f&&(l(!0),n(s))}}export{E as h};

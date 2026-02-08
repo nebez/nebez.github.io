@@ -3,24 +3,38 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script>
+            (() => {
+                const root = document.documentElement;
+                const media = window.matchMedia('(prefers-color-scheme: dark)');
+                const saved = localStorage.getItem('theme'); // "light" | "dark" | null
+
+                if (saved === 'light' || saved === 'dark') {
+                    root.setAttribute('data-theme', saved);
+                    return;
+                }
+
+                root.setAttribute('data-theme', media.matches ? 'dark' : 'light');
+            })();
+        </script>
         
-		<link rel="modulepreload" href="../kit-app/immutable/entry/start.CcKRsXgm.js">
-		<link rel="modulepreload" href="../kit-app/immutable/chunks/CUOBOLUe.js">
-		<link rel="modulepreload" href="../kit-app/immutable/chunks/B6y2YvGB.js">
+		<link rel="modulepreload" href="../kit-app/immutable/entry/start.CRghvfxy.js">
+		<link rel="modulepreload" href="../kit-app/immutable/chunks/WH0hR-H_.js">
+		<link rel="modulepreload" href="../kit-app/immutable/chunks/D_ayd-TV.js">
 		<link rel="modulepreload" href="../kit-app/immutable/chunks/DIeogL5L.js">
-		<link rel="modulepreload" href="../kit-app/immutable/chunks/CGK7Eram.js">
-		<link rel="modulepreload" href="../kit-app/immutable/chunks/6vE7JARx.js">
-		<link rel="modulepreload" href="../kit-app/immutable/entry/app.BWp-XGND.js">
-		<link rel="modulepreload" href="../kit-app/immutable/chunks/Di3fWe5y.js">
-		<link rel="modulepreload" href="../kit-app/immutable/chunks/CeVSp7a8.js">
+		<link rel="modulepreload" href="../kit-app/immutable/chunks/BF0d8ZcR.js">
+		<link rel="modulepreload" href="../kit-app/immutable/chunks/DzFuckFO.js">
+		<link rel="modulepreload" href="../kit-app/immutable/entry/app.4q6nb8tQ.js">
+		<link rel="modulepreload" href="../kit-app/immutable/chunks/DrDqAjj6.js">
+		<link rel="modulepreload" href="../kit-app/immutable/chunks/DKJA3skp.js">
 		<link rel="modulepreload" href="../kit-app/immutable/chunks/DsnmJJEf.js">
-		<link rel="modulepreload" href="../kit-app/immutable/chunks/C0-SiNRk.js">
-		<link rel="modulepreload" href="../kit-app/immutable/chunks/EvkMLEVS.js">
-		<link rel="modulepreload" href="../kit-app/immutable/nodes/0.Bj_OtDKq.js">
-		<link rel="modulepreload" href="../kit-app/immutable/chunks/9_-oe-7g.js">
-		<link rel="modulepreload" href="../kit-app/immutable/nodes/3.BcKxd8-E.js">
+		<link rel="modulepreload" href="../kit-app/immutable/chunks/CJOWAMTz.js">
+		<link rel="modulepreload" href="../kit-app/immutable/chunks/uHqly5Mk.js">
+		<link rel="modulepreload" href="../kit-app/immutable/nodes/0.rM0Yf9_S.js">
+		<link rel="modulepreload" href="../kit-app/immutable/chunks/BGi--UaR.js">
+		<link rel="modulepreload" href="../kit-app/immutable/nodes/3.TFZ-9KTr.js">
 		<link rel="modulepreload" href="../kit-app/immutable/chunks/69_IOA4Y.js">
-		<link rel="modulepreload" href="../kit-app/immutable/chunks/D20RePCD.js">
+		<link rel="modulepreload" href="../kit-app/immutable/chunks/D_Oz3PHz.js">
 		<link rel="modulepreload" href="../kit-app/immutable/nodes/6.DPzO339H.js"><!--1n6ri--><meta http-equiv="refresh" content="0; url=/"/><!---->
     </head>
     <body data-sveltekit-preload-data="hover">
@@ -28,15 +42,15 @@
 			
 			<script>
 				{
-					__sveltekit_156r0hj = {
+					__sveltekit_1i2s6sa = {
 						base: new URL("..", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("../kit-app/immutable/entry/start.CcKRsXgm.js"),
-						import("../kit-app/immutable/entry/app.BWp-XGND.js")
+						import("../kit-app/immutable/entry/start.CRghvfxy.js"),
+						import("../kit-app/immutable/entry/app.4q6nb8tQ.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 3, 6],

@@ -1,0 +1,1 @@
+import{l as e,u as l,g as t,i as u}from"./D_ayd-TV.js";import{l as a}from"./DIeogL5L.js";function r(n){t===null&&e(),a&&t.l!==null?c(t).m.push(n):l(()=>{const o=u(n);if(typeof o=="function")return o})}function c(n){var o=n.l;return o.u??={a:[],b:[],m:[]}}export{r as o};
